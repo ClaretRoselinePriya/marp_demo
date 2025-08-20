@@ -1,0 +1,19 @@
+{
+  "name": "marp-docs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "marp -s . --html --allow-local-files --theme-set iitm-docs.css",
+    "build:html": "marp slides.md --html --allow-local-files --theme-set iitm-docs.css",
+    "build:pdf": "marp slides.md --pdf --allow-local-files --theme-set iitm-docs.css",
+    "build:pptx": "marp slides.md --pptx --allow-local-files --theme-set iitm-docs.css"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.2.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
